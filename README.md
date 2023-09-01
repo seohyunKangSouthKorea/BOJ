@@ -1,2 +1,2 @@
 # BOJ
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+BOJ(Baekjoon Online Judge) 백준 온라인 저지( https://www.acmicpc.net/ ) 에서 푼 것들을 업로드.
