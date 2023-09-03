@@ -13,14 +13,12 @@ public class Main{
 				fir = s.indexOf(croatia[i],fir);
 				if(fir==-1) break;
 				cnt++;
-				if(croatia[i].equals("dz=")) s.replace(fir, fir+croatia[i].length(), "!!!");
-				else s.replace(fir, fir+croatia[i].length(), "!!");
-				fir = fir + croatia[i].length();
+				s.replace(fir, fir+croatia[i].length(), "!");
+				fir = fir + 1;
 			}
 		}
 		String[] arr = s.toString().split("!");
-		for(int i=0;i<arr.length;i++) 
-			cnt += arr[i].length();
+		for(int i=0;i<arr.length;i++) cnt += arr[i].length();
 		System.out.print(cnt);
 		sc.close();
 	}
